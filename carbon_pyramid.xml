@@ -4,7 +4,7 @@
   <project name="TeamZ/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="gh" revision="carbon-jb3" />
   <project name="TeamZ/android_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" remote="gh" revision="carbon-jb3" />
   <project name="TeamZ/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="gh" revision="carbon-jb3" />
-  <project name="TeamZ/android_hardware_qcom_msm8660" path="hardware/qcom/msm8660" remote="gh" revision="master" />
+  <project name="TeamZ/android_hardware_qcom_msm8660" path="hardware/qcom/msm8660" remote="gh" revision="carbon-jb3" />
   <project name="TeamZ/local_manifest" path="localmanifest" remote="gh" revision="master" />
   <project name="Team-Hydra/android_kernel_htc_msm8660" path="kernel/htc/msm8660" remote="gh" revision="cm-10.2" />
   <project name="Team-Hydra/android_vendor_htc" path="vendor/htc" remote="gh" revision="cm-10.2" />

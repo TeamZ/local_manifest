@@ -18,6 +18,10 @@ do_update_fork()
 	cd -
 }
 
+CURR_DIR=`readlink -f .`
+SCRIPT_DIR=$(readlink -f $(dirname ${BASH_SOURCE[0]}))
+
+cd $SCRIPT_DIR
 #update forked repos
 echo updating forked repos...
 TEAM_HYDRA_URL="https://github.com/Team-Hydra"
@@ -33,7 +37,7 @@ do_update_fork "device/htc/msm8660-common" $TEAM_HYDRA_NAME $TEAM_HYDRA_URL $BAS
 do_update_fork "hardware/qcom/gps-legacy" $TEAM_HYDRA_NAME $TEAM_HYDRA_URL $BASE_BRANCH
 do_update_fork "hardware/qcom/gps" $CM_NAME $CM_URL $BASE_BRANCH
 
-
+cd $CURR_DIR
 echo Update complete....
 
 

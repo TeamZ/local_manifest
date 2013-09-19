@@ -7,6 +7,15 @@
   <project name="TeamZ/android_hardware_qcom_msm8660" path="hardware/qcom/msm8660" remote="gh" revision="carbon-jb3" />
   <project name="TeamZ/local_manifest" path="localmanifest" remote="gh" revision="master" />
   <project name="Team-Hydra/android_kernel_htc_msm8660" path="kernel/htc/msm8660" remote="gh" revision="cm-10.2" />
+  
+
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <project name="Evervolv/android_hardware_qcom_audio-caf" remote="gh" path="hardware/qcom/audio-caf" revision="jellybean-4.3" />
+
+  <remove-project name="android_frameworks_av" />
+  <project name="Evervolv/android_frameworks_av" remote="gh" path="frameworks/av" revision="jellybean-4.3" />
+
+  <remove-project name="proprietary_vendor_htc" />
   <project name="Team-Hydra/android_vendor_htc" path="vendor/htc" remote="gh" revision="cm-10.2" />
   <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="gh" revision="cm-10.2" />
   <project name="Team-Hydra/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="gh" revision="cm-10.2" />

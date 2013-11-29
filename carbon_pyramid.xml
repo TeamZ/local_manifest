@@ -3,21 +3,16 @@
   <project name="TeamZ/android_device_htc_pyramid" path="device/htc/pyramid" remote="gh" revision="carbon-jb3"/>
   <project name="TeamZ/android_device_htc_msm8660-common" path="device/htc/msm8660-common" remote="gh" revision="carbon-jb3" />
   <project name="TeamZ/android_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" remote="gh" revision="carbon-jb3" />
-  <project name="TeamZ/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="gh" revision="carbon-jb3" />
   <project name="TeamZ/android_hardware_qcom_msm8660" path="hardware/qcom/msm8660" remote="gh" revision="carbon-jb3" />
   <project name="TeamZ/local_manifest" path="localmanifest" remote="gh" revision="master" />
   <project name="Team-Hydra/android_kernel_htc_msm8660" path="kernel/htc/msm8660" remote="gh" revision="cm-10.2" />
   
-
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
-  <project name="Evervolv/android_hardware_qcom_audio-caf" remote="gh" path="hardware/qcom/audio-caf" revision="jellybean-4.3" />
-
   <remove-project name="CarbonDev/android_frameworks_av" />
-  <project name="Evervolv/android_frameworks_av" remote="gh" path="frameworks/av" revision="jellybean-4.3" />
+  <project name="Team-Hydra/android_frameworks_av" remote="gh" path="frameworks/av" revision="cm-10.2" />
 
   <remove-project name="CarbonDev/android_packages_apps_Gallery2" />
   <project name="Team-Hydra/android_packages_apps_Gallery2" remote="gh" path="packages/apps/Gallery2" revision="cm-10.2" />
-  
+
   <remove-project name="CarbonDev/proprietary_vendor_htc" />
   <project name="Team-Hydra/android_vendor_htc" path="vendor/htc" remote="gh" revision="cm-10.2" />
   <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="gh" revision="cm-10.2" />

@@ -10,6 +10,7 @@ get_repo_path()
 
 do_update_fork()
 {
+	echo "Updating ... $1"
 	cd ../$1
 	REPO=$(get_repo_path $1)
 	git remote add $2 $3/$REPO
